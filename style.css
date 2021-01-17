@@ -1,0 +1,66 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"], button {
+    padding: 13px;
+    width: 550px;
+    border-radius: 25px;
+    margin: 20px 0;
+    outline: 0;
+}
+
+input[type="submit"], button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+input[value="Advanced Search"] {
+    background-color: #4c8ef9;
+    color: #fff;
+    border: 0;
+    font-weight: 700;
+}
+
+label[for="all-words"] {
+    margin-top: 25px;
+}
+
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 15px;
+}
+
+a.first-link {
+    margin-bottom: 5px;
+}
+
+a.alone {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
